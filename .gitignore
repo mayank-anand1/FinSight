@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated vector stores
+vectorstore/
+
+# Operating system
+.DS_Store
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# API secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Financial datasets and annual reports
+data/*.pdf
+data/*.csv
